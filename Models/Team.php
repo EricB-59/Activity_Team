@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Nette\Utils\ArrayList;
+
 
 /**
  * Represents a team in a football match.
@@ -19,7 +19,7 @@ class Team
     /**
      * List of players in the team
      *
-     * @var ArrayList
+     * @var players[]
      */
     private $players;
 
@@ -29,7 +29,7 @@ class Team
      * @param string    $name     Team name
      * @param ArrayList $players  List of players
      */
-    public function __construct($name, ArrayList $players)
+    public function __construct($name, array $players)
     {
         $this->name = $name;
         $this->players = $players;
@@ -70,7 +70,7 @@ class Team
      *
      * @param ArrayList $players List of players
      */
-    public function setPlayers(ArrayList $players)
+    public function setPlayers(array $players)
     {
         $this->players = $players;
     }
