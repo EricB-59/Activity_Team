@@ -7,6 +7,12 @@ namespace App\Models;
  */
 class Person
 {
+      /**
+     * Coach name
+     *
+     * @var string
+     */
+    private $name;
 /**
    * age of person
    *

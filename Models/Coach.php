@@ -9,13 +9,6 @@ namespace App\Models;
 class Coach extends Person
 {
     /**
-     * Coach name
-     *
-     * @var string
-     */
-    private $name;
-
-    /**
      * Coach Status
      *
 
