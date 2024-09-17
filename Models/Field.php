@@ -41,4 +41,24 @@ class Field
   {
     echo "switching on lights";
   }
+
+    /**
+   * Get Altura
+   *
+   * @return  int
+   */
+  public function getAltura()
+  {
+    return $this->size;
+  }
+
+      /**
+   * Get Anchura
+   *
+   * @return  int
+   */
+  public function getAnchura()
+  {
+    return $this->size;
+  }
 }
