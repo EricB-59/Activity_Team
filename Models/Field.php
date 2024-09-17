@@ -50,6 +50,9 @@ class Field
   public function getAltura()
   {
     return $this->size;
+    /**
+     * Pruwba Conflicto Altura
+     */
   }
 
       /**
