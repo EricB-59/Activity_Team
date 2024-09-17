@@ -51,7 +51,7 @@ class Field
   {
     return $this->size;
     /**
-     * Pruwba Conflicto Altura
+     * Pruwba Conflicto Altura, segunda prueba
      */
   }
 
