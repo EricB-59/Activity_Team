@@ -42,7 +42,6 @@ class Field
     echo "switching on lights";
   }
 
- 
 
       /**
    * Get Anchura
