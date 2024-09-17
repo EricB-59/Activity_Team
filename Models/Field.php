@@ -61,4 +61,7 @@ class Field
   {
     return $this->size;
   }
+  /* 
+    PRUEBA 1 para getAnchura
+  */
 }
