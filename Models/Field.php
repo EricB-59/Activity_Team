@@ -42,18 +42,7 @@ class Field
     echo "switching on lights";
   }
 
-    /**
-   * Get Altura
-   *
-   * @return  int
-   */
-  public function getAltura()
-  {
-    return $this->size;
-    /**
-     * Pruwba Conflicto Altura
-     */
-  }
+ 
 
       /**
    * Get Anchura
