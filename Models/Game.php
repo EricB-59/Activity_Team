@@ -2,8 +2,6 @@
 
 namespace App\Models;
 
-use Nette\Utils\ArrayList;
-
 /**
  * Repr
  */
@@ -18,7 +16,7 @@ class Game
   /**
    * Team #1 vs. Team #2
    *
-   * @var ArrayList
+   * @var array
    */
   private $teams;
 
@@ -50,7 +48,7 @@ class Game
   /**
    * Get team #1 vs. Team #2
    *
-   * @return  ArrayList
+   * @return  array
    */ 
   public function getTeams()
   {
@@ -60,11 +58,11 @@ class Game
   /**
    * Set team #1 vs. Team #2
    *
-   * @param  ArrayList  $teams  Team #1 vs. Team #2
+   * @param  array  $teams  Team #1 vs. Team #2
    *
    * @return  self
    */ 
-  public function setTeams(ArrayList $teams)
+  public function setTeams(array $teams)
   {
     $this->teams = $teams;
     
